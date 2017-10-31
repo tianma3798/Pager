@@ -1,0 +1,232 @@
+﻿body {
+}
+.clear {
+    clear: both;
+}
+
+
+   /******************************分页控件样式--pageBar*****************************/
+
+.pageBar {
+    width: 650px;
+    margin: 30px auto;
+    border: 0px solid red;
+}
+
+    .pageBar .pageBar_Number {
+        float: left;
+    }
+
+    .pageBar .pageBar_Go {
+        float: left;
+    }
+
+    .pageBar span {
+        display: inline-block;
+        width: 38px;
+        height: 35px;
+        float: left;
+        border: 1px solid #C4C4C4;
+        border-radius: 3px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+        .pageBar span.number {
+            text-align: center;
+            line-height: 35px;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: "Microsoft YaHei";
+            margin: 0px 5px;
+            cursor: pointer;
+            background-color: #FCFCFC;
+        }
+
+    .pageBar .pageBar_Number span:hover {
+        background-color: #E3E3E3;
+    }
+
+    .pageBar span.goToNumber:hover {
+        background-color: #E3E3E3;
+    }
+
+    .pageBar span.Hot:hover {
+        background-color: #FFBA00;
+    }
+
+    .pageBar span.Hot {
+        color: white;
+        background-color: #FFBA00;
+    }
+
+    .pageBar span.arrowLeft {
+        cursor: pointer;
+    }
+
+    .pageBar span.arrowRight {
+        cursor: pointer;
+    }
+
+    .pageBar span.moreRight, .pageBar span.moreLeft {
+        font-weight: bolder;
+        text-align: center;
+        line-height: 30px;
+        margin: 0px 5px;
+        cursor: pointer;
+    }
+
+    /*跳转部分*/
+    .pageBar span.title {
+        width: 50px;
+        background-color: white;
+        text-align: right;
+        line-height: 37px;
+        margin-left: 10px;
+        font-size: 12px;
+        border: 0px;
+    }
+
+    .pageBar span.text {
+        width: 40px;
+        border: 0px;
+    }
+
+    .pageBar span input {
+        width: 32px;
+        height: 16px;
+        line-height: 16px;
+        padding: 8px 4px;
+    }
+
+        .pageBar span input:focus {
+            border-color: rgba(255, 139, 160, 0.5);
+        }
+
+    .pageBar span.goToNumber {
+        text-align: center;
+        line-height: 32px;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+
+/**************绿色按钮 样式控制************/
+.greenPager span {
+    display: inline-block;
+    width: 38px;
+    height: 35px;
+    float: left;
+    border: 1px solid #C4C4C4;
+  
+    border-radius: 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    color:#666666;
+}
+    .greenPager span.number {
+        text-align: center;
+        line-height: 35px;
+        font-size: 13px;
+        font-weight: normal;
+        font-family: "Microsoft YaHei";
+        margin: 0px 0px;
+        border-left: 0px;
+        cursor: pointer;
+        background-color: #FCFCFC;
+    }
+
+
+
+    .greenPager span.Hot {
+        background-color: #3BA354;
+    }
+
+        .greenPager span.Hot:hover {
+            background-color: #3BA354;
+        }
+
+    .greenPager span.moreRight, .greenPager span.moreLeft {
+        font-weight: bolder;
+        text-align: center;
+        line-height: 30px;
+        margin: 0px 0px;
+        cursor: pointer;
+        border-left: 0px;
+    }
+
+    .greenPager span.arrowRight {
+        cursor: pointer;
+        border-left: 0px;
+    }
+
+    .greenPager span.text {
+        width: 88px;
+        border: 0px;
+        font-size: 12px;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .greenPager span input {
+        width: 25px;
+        height: 16px;
+        line-height: 16px;
+        padding: 0px 2px;
+        margin: 0px 3px;
+    }
+
+        .greenPager span input:focus {
+            border-color: rgba(59, 163, 84, 0.5);
+        }
+
+    .greenPager span.goToNumber {
+        text-align: center;
+        height: 16px;
+        line-height: 16px;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+        margin-left: 8px;
+        cursor: pointer;
+        background-color: #3BA354;
+        color: white;
+        border: 0px;
+        margin-top: 7px;
+        padding: 4px 2px;
+    }
+
+        .greenPager span.goToNumber:hover {
+            background-color: #23893B;
+        }
+
+
+
+/**三角样式**/
+.arrow-left {
+    width: 0px;
+    height: 0px;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #4E4E4E;
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #4E4E4E;
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    margin-left: 16px;
+    margin-top: 12px;
+}
